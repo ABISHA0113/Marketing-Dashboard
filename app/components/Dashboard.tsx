@@ -5,7 +5,7 @@ import {
   Activity, 
   Users, 
   TrendingUp, 
-  DollarSign,
+  Wallet,
   Menu,
   X,
   Bell,
@@ -27,16 +27,16 @@ export function Dashboard() {
   const stats = [
     {
       title: 'Total Revenue',
-      value: '$54,239',
-      change: '+12.5%',
-      icon: DollarSign,
+      value: 'रू 1,45,890',
+      change: '+15.3%',
+      icon: Wallet,
       color: 'bg-emerald-500',
       trend: 'up' as const
     },
     {
       title: 'Active Users',
-      value: '24,892',
-      change: '+8.2%',
+      value: '31,567',
+      change: '+11.7%',
       icon: Users,
       color: 'bg-blue-500',
       trend: 'up' as const
@@ -67,7 +67,7 @@ export function Dashboard() {
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-lg"></div>
             <span className="font-bold text-xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              AI Analytics
+              Analytics
             </span>
           </div>
           <button onClick={() => setSidebarOpen(false)} className="lg:hidden">

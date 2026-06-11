@@ -1,0 +1,55 @@
+# My AI Marketing Dashboard Project
+
+## Student: [Abisha Chaudhary]
+## Date: [June11, 2026]
+
+## What I Built
+A modern SaaS dashboard for marketing analytics with charts, stats, and AI insights.
+
+## Technologies I Used
+- Next.js 14 - React framework
+- Tailwind CSS - Styling
+- Recharts - Charts library
+- Lucide React - Icons
+
+## Features I Implemented
+
+1. **4 Statistics Cards** - Shows revenue, users, conversion rate, ROI
+2. **Area Chart** - Shows revenue trends over time
+3. **Pie Chart** - Shows traffic channel distribution  
+4. **Bar Chart** - Shows campaign performance
+5. **AI Insights Box** - Displays smart recommendations
+6. **Recent Activity Feed** - Shows latest actions
+7. **Responsive Design** - Works on mobile, tablet, desktop
+8. **Collapsible Sidebar** - Toggle menu on mobile
+
+## How I Built It
+
+### Component Structure:
+- Dashboard.tsx - Main layout
+- StatsCard.tsx - Reusable card component
+- RevenueChart.tsx - Area chart
+- TopChannels.tsx - Pie chart
+- CampaignPerformance.tsx - Bar chart
+- AIInsights.tsx - Insights panel
+- RecentActivity.tsx - Activity list
+
+## Challenges I Solved
+
+1. **Issue**: Charts weren't displaying
+   **Fix**: Added 'use client' directive at top of chart components
+
+2. **Issue**: Sidebar not toggling on mobile
+   **Fix**: Used useState hook to track open/closed state
+
+## Live Demo
+[https://marketing-dashboard-affu.vercel.app/]
+
+## GitHub Repo
+[(https://github.com/ABISHA0113/Marketing-Dashboard.git)]
+
+## What I Learned
+- How to use Recharts library for data visualization
+- Tailwind CSS responsive design patterns
+- Next.js App Router structure
+- React useState for interactive components

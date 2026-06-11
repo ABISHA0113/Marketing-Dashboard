@@ -26,7 +26,7 @@ export function AIInsights() {
   ];
 
   return (
-    <div className="bg-gradient-to-br from-blue-600 to-purple-600 rounded-xl p-6 text-white">
+    <div className="bg-linear-to-br from-blue-600 to-purple-600 rounded-xl p-6 text-white">
       <div className="flex items-center space-x-2 mb-4">
         <Sparkles className="w-5 h-5" />
         <h3 className="font-semibold">AI Insights</h3>

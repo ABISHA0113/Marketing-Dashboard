@@ -46,6 +46,8 @@ export function RecentActivity() {
               <p className="text-xs text-gray-500 mt-1">{activity.description}</p>
             </div>
             <span className="text-xs text-gray-400">{activity.time}</span>
+            <div className="text-center text-xs text-gray-400 mt-6 pt-4 border-t border-gray-100">
+</div>
           </div>
         ))}
       </div>
