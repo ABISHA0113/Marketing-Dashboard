@@ -31,7 +31,7 @@ export function RevenueChart() {
         <div className="flex space-x-2">
           <div className="flex items-center">
             <div className="w-3 h-3 bg-blue-500 rounded-full mr-1"></div>
-            <span className="text-xs text-gray-600">Revenue</span>
+            <span className="text-xs text-gray-600">Revenue(NPR)</span>
           </div>
           <div className="flex items-center ml-3">
             <div className="w-3 h-3 bg-purple-500 rounded-full mr-1"></div>
